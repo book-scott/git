@@ -1,9 +1,5 @@
 # Git提交引用和引用日志
 
-> BY 童仲毅([geeeeeeeeek@github](https://github.com/geeeeeeeeek/git-recipes/))
-> 
-> 这是一篇在[原文(BY atlassian)](https://www.atlassian.com/git/tutorials/refs-and-the-reflog)基础上演绎的译文。除非另行注明，页面上所有内容采用知识共享-署名([CC BY 2.5 AU](http://creativecommons.org/licenses/by/2.5/au/deed.zh))协议共享。
-
 提交是Git的精髓所在，你无时不刻不在创建和缓存提交、查看以前的提交，或者用各种Git命令在仓库间转移你的提交。大多数的命令都对同一个提交操作，而有些会接受提交的引用作为参数。比如，你可以给`git checkout`传入一个引用来查看以前的提交，或者传入一个分支名来切换到对应的分支。
 
 ![引用一次提交的各种方式](https://www.atlassian.com/git/images/tutorials/advanced/refs-and-the-reflog/01.svg)
@@ -268,10 +264,3 @@ git checkout HEAD@{1}
 
 它的意义在于：在任何开发场景下，你都能找到你需要的特定提交。你很容易就可以把这些技巧用在你一有的Git知识中，因为很多常用的命令都接受引用作为参数，包括`git log`、`git show`、`git checkout`、`git reset`、`git revert`、`git rebase`等等。
 
-
-
-> 这篇文章是[**『git-recipes』**](https://github.com/geeeeeeeeek/git-recipes/)的一部分，点击[**目录**](https://github.com/geeeeeeeeek/git-recipes/wiki/)查看所有章节。
-> 
-> 如果你觉得文章对你有帮助，欢迎点击右上角的***Star***:star2:或***Fork***:fork_and_knife:。
-> 
-> 如果你发现了错误，或是想要加入协作，请参阅[Wiki协作说明](https://github.com/geeeeeeeeek/git-recipes/issues/1)。

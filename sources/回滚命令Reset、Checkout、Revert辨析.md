@@ -1,9 +1,5 @@
 # 代码回滚：Reset、Checkout、Revert的选择
 
-> BY 童仲毅([geeeeeeeeek@github](https://github.com/geeeeeeeeek/git-recipes/))
-> 
-> 这是一篇在[原文(BY atlassian)](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting)基础上演绎的译文。除非另行注明，页面上所有内容采用知识共享-署名([CC BY 2.5 AU](http://creativecommons.org/licenses/by/2.5/au/deed.zh))协议共享。
-
 `git reset`、`git checkout`和`git revert`是你的Git工具箱中最有用的一些命令。它们都用来撤销代码仓库中的某些更改，而前两个命令不仅可以作用于提交，还可以作用于特定文件。
 
 因为它们非常相似，所以我们经常会搞混，不知道什么场景下该用哪个命令。在这篇文章中，我们会比较`git reset`、`git checkout`和`git revert`最常见的用法。希望你在看完后能游刃有余地使用这些命令来管理你的仓库。 
@@ -141,8 +137,3 @@ git checkout HEAD~2 foo.py
 |  git revert  | 提交层面 | 在公共分支上回滚更改        |
 |  git revert  | 文件层面 | （然而并没有）           |
 
-> 这篇文章是[**『git-recipes』**](https://github.com/geeeeeeeeek/git-recipes/)的一部分，点击[**目录**](https://github.com/geeeeeeeeek/git-recipes/wiki/)查看所有章节。
-> 
-> 如果你觉得文章对你有帮助，欢迎点击右上角的***Star***:star2:或***Fork***:fork_and_knife:。
-> 
-> 如果你发现了错误，或是想要加入协作，请参阅[Wiki协作说明](https://github.com/geeeeeeeeek/git-recipes/issues/1)。

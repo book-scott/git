@@ -1,9 +1,5 @@
 # Git钩子：自定义你的工作流
 
-> BY 童仲毅([geeeeeeeeek@github](https://github.com/geeeeeeeeek/git-recipes/))
-> 
-> 这是一篇在[原文(BY atlassian)](https://www.atlassian.com/git/tutorials/git-hooks)基础上演绎的译文。除非另行注明，页面上所有内容采用知识共享-署名([CC BY 2.5 AU](http://creativecommons.org/licenses/by/2.5/au/deed.zh))协议共享。
-
 Git钩子是在Git仓库中特定事件发生时自动运行的脚本。它可以让你自定义Git内部的行为，在开发周期中的关键点触发自定义的行为。
 
 ![enter image description here](https://www.atlassian.com/git/images/tutorials/advanced/git-hooks/01.svg)
@@ -445,10 +441,3 @@ print "Moving '%s' from %s to %s" % (branch, old_commit, new_commit)
 
 我们还看了一些常用的本地和服务端的钩子。这使得我们能够介入到整个开发生命周期中去。我们现在知道了如何在创建提交或推送的每个阶段执行自定义的操作。有了这些简单的脚本知识，你就可以对Git仓库为所欲为了 : ) 
 
-
-
-> 这篇文章是[**『git-recipes』**](https://github.com/geeeeeeeeek/git-recipes/)的一部分，点击[**目录**](https://github.com/geeeeeeeeek/git-recipes/wiki/)查看所有章节。
-> 
-> 如果你觉得文章对你有帮助，欢迎点击右上角的***Star***:star2:或***Fork***:fork_and_knife:。
-> 
-> 如果你发现了错误，或是想要加入协作，请参阅[Wiki协作说明](https://github.com/geeeeeeeeek/git-recipes/issues/1)。

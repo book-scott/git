@@ -1,13 +1,5 @@
 # 创建Pull Request
 
-> BY 童仲毅([geeeeeeeeek@github](https://github.com/geeeeeeeeek/git-recipes/))
-> 
-> 这是一篇在[原文(BY atlassian)](https://www.atlassian.com/git/tutorials/making-a-pull-request)基础上演绎的译文。除非另行注明，页面上所有内容采用知识共享-署名([CC BY 2.5 AU](http://creativecommons.org/licenses/by/2.5/au/deed.zh))协议共享。
-> 
-> 原文以Bitbucket为例，考虑到[git-recipes](https://github.com/geeeeeeeeek/git-recipes/)主要面向Github用户，因此栗子替换成了Github。Pull Request在GitLab等平台上也有，用法和本教程基本一致。
-
-
-
 Pull request是开发者使用Github进行协作的利器。这个功能为用户提供了友好的页面，让提议的更改在并入官方项目之前，可以得到充分的讨论。
 
 ![qq20160127-0](https://cloud.githubusercontent.com/assets/7262715/12608331/8ece897e-c516-11e5-91c0-f7a44434478f.png)
@@ -179,11 +171,3 @@ John可以在他自己的Github仓库下的 *Pull Request* 选项卡中看到所
 ## 接下来怎么做？
 
 你现在应该已经掌握了如何将你的pull request整合到你的工作流。记住，pull request不是替代任何Git工作流的万金油，而是一种让队员间协作锦上添花的工具。
-
-
-
-> 这篇文章是[**『git-recipes』**](https://github.com/geeeeeeeeek/git-recipes/)的一部分，点击[**目录**](https://github.com/geeeeeeeeek/git-recipes/wiki/)查看所有章节。
-> 
-> 如果你觉得文章对你有帮助，欢迎点击右上角的***Star***:star2:或***Fork***:fork_and_knife:。
-> 
-> 如果你发现了错误，或是想要加入协作，请参阅[Wiki协作说明](https://github.com/geeeeeeeeek/git-recipes/issues/1)。

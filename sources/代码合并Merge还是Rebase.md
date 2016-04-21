@@ -1,9 +1,5 @@
 # 代码合并：Merge、Rebase的选择
 
-> BY 童仲毅([geeeeeeeeek@github](https://github.com/geeeeeeeeek/git-recipes/))
-> 
-> 这是一篇在[原文(BY atlassian)](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)基础上演绎的译文。除非另行注明，页面上所有内容采用知识共享-署名([CC BY 2.5 AU](http://creativecommons.org/licenses/by/2.5/au/deed.zh))协议共享。
-
 `git rebase` 这个命令经常被人认为是一种Git巫术，初学者应该避而远之。但如果使用得当的话，它能给你的团队开发省去太多烦恼。在这篇文章中，我们会比较`git rebase`和类似的`git merge`命令，找到Git工作流中rebase的所有用法。
 
 ## 概述
@@ -210,10 +206,3 @@ git merge temporary-branch
 
 另一方面，如果你想要保存项目完整的历史，并且避免重写公共分支上的commit， 你可以使用`git merge`。两种选项都很好用，但至少你现在多了`git rebase`这个选择。
 
-
-
-> 这篇文章是[**『git-recipes』**](https://github.com/geeeeeeeeek/git-recipes/)的一部分，点击[**目录**](https://github.com/geeeeeeeeek/git-recipes/wiki/)查看所有章节。
-> 
-> 如果你觉得文章对你有帮助，欢迎点击右上角的***Star***:star2:或***Fork***:fork_and_knife:。
-> 
-> 如果你发现了错误，或是想要加入协作，请参阅[Wiki协作说明](https://github.com/geeeeeeeeek/git-recipes/issues/1)。

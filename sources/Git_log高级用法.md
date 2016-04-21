@@ -1,9 +1,5 @@
 # Git log高级用法
 
-> BY 童仲毅([geeeeeeeeek@github](https://github.com/geeeeeeeeek/git-recipes/))
-> 
-> 这是一篇在[原文(BY atlassian)](https://www.atlassian.com/git/tutorials/git-log)基础上演绎的译文。除非另行注明，页面上所有内容采用知识共享-署名([CC BY 2.5 AU](http://creativecommons.org/licenses/by/2.5/au/deed.zh))协议共享。
-
 每一个版本控制系统的出现都是为了让你记录代码的变化。你可以看到项目的历史记录——谁贡献了什么、bug是什么时候引入的，还可以撤回有问题的更改。但是，首先你得知道如何使用它。这也就是为什么会有`git log` 这个命令。
 
 到现在为止，你应该已经知道如何用`git log` 命令来显示最基本的提交信息。但除此之外，你还可以传入各种不同的参数来获得不一样的输出。
@@ -277,11 +273,3 @@ git log --merges
 你现在应该对使用`git log`来格式化输出和选择你要显示的提交的用法比较熟悉了。它允许你查看你项目历史中任何需要的内容。
 
 这些技巧是你Git工具箱中重要的部分，不过注意`git log`往往和其他Git命令连着使用。当你找到了你要的提交，你把它传给`git checkout` 、`git revert`  或是其他控制提交历史的工具。所以，请继续坚持Git高级用法的学习。
-
-
-
-> 这篇文章是[**『git-recipes』**](https://github.com/geeeeeeeeek/git-recipes/)的一部分，点击[**目录**](https://github.com/geeeeeeeeek/git-recipes/wiki/)查看所有章节。
-> 
-> 如果你觉得文章对你有帮助，欢迎点击右上角的***Star***:star2:或***Fork***:fork_and_knife:。
-> 
-> 如果你发现了错误，或是想要加入协作，请参阅[Wiki协作说明](https://github.com/geeeeeeeeek/git-recipes/issues/1)。
